@@ -1,0 +1,7 @@
+- git:
+    local-name: ariles
+    uri: git@github.com:asherikov/ariles.git
+    version: pkg_catkin_2
+- git:
+    local-name: staticoma
+    uri: git@github.com:asherikov/staticoma.git

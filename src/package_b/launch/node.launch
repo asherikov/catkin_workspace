@@ -1,0 +1,11 @@
+<launch>
+
+    <node
+        pkg="rostopic"
+        type="rostopic"
+        name="package_b_parameter_provider"
+        required="true"
+        args="pub --latch /package_b/package_c_parameters std_msgs/String '&quot;{int_param: 1, float_param: 2.0}&quot;'"
+    />
+
+</launch>

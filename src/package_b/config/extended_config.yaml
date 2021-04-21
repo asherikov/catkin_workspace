@@ -1,0 +1,17 @@
+parameter_set:
+    parameter_subset:
+        float_override: 4.0
+        float_array_override:
+            - 4.0
+            - 3.0
+    empty_array_override:
+        - not_so_empty: 1.0
+    integer_add: 2
+
+
+staticoma:
+    sources:
+        dynamic_package_c_parameters:
+            package_b:
+                topic: "/package_b/package_c_parameters"
+                type: "std_msgs/String"

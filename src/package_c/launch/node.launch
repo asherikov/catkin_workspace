@@ -1,0 +1,23 @@
+<launch>
+
+    <env name="STATICOMA_CONFIG_FILE" value="$(find package_c)/staticoma/merged_config.yaml"/>
+
+    <include file="$(find package_b)/launch/node.launch" />
+
+    <node
+        pkg="staticoma"
+        type="server"
+        name="staticoma_server"
+        output="screen"
+        required="true"
+    />
+
+    <node
+        pkg="package_c"
+        type="node"
+        name="package_c_node"
+        output="screen"
+        required="true"
+    />
+
+</launch>

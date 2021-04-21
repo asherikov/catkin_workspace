@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>package_a</name>
+  <version>0.0.0</version>
+  <description>The package_a package</description>
+
+  <maintainer email="asherikov@yandex.com">Alexander Sherikov</maintainer>
+
+  <license>Apache 2.0</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>staticoma</depend>
+
+</package>
